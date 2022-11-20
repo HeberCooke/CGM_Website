@@ -6,11 +6,12 @@
     padding: 0;
     background-color: #000000;
     box-sizing: border-box;
-
+    
     
 }
 .root, h1{
     color: white;
+    height: 12800px;
 }
 
 .header{
@@ -18,10 +19,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px, 10%;
+    padding: 5%, 5%;
 }
-.header, h1{
-    margin-left: 20px;
+.header, nav{
+    padding-right: 60px;
 }
 li, a{
     color: white;
@@ -34,4 +35,35 @@ li, a{
 }
 li,a:hover{
     color: #0A8CBF;
+}
+#logo-image{
+    display: block;
+    width: 100%;
+
+}
+#image-link-tag{
+    padding-left: 60px;
+    display: block;
+    width: 300px;
+}
+.main-video{
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1060px){
+
+    li, a{
+        font-size: 1rem;
+    }
+
+    #image-link-tag{
+        padding-left: 30px;
+        display: block;
+        width: 150px;
+    }
+    .header, nav{
+        padding-right: 30px;
+    }
 }
