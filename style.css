@@ -9,6 +9,9 @@
     
     
 }
+.root{
+    width: 100%;
+}
 .root, h1{
     color: white;
     
@@ -18,12 +21,12 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5%, 5%;
+    margin: 5%, 5%;
     text-transform: capitalize;
 }
 .header, nav{
     
-    padding-right: 60px;
+    margin-right: 60px;
 }
 .header li ,a{
     color: white;
@@ -39,14 +42,17 @@ li,a:hover{
     color: #0A8CBF;
 }
 #logo-image{
-    display: block;
+    
     width: 100%;
-
+    height: auto;
 }
 #image-link-tag{
-    padding-left: 60px;
+    margin-left: 60px;
     display: block;
     width: 300px;
+}
+#top{
+    width: 100%;
 }
 .main-video{
     display: block;
@@ -69,11 +75,10 @@ li,a:hover{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    max-width: 100%;
-    max-height: 100%;
+
 }
 #valhalla-text{
-    padding-top: 30px;
+    margin-top: 30px;
     text-align: center;
     max-width: 60%;
     margin: auto;
@@ -102,7 +107,7 @@ li,a:hover{
 }
 
 .features-info{
-    padding: 20px;
+    margin: 20px;
     width: 550px;
     
 }
@@ -148,7 +153,7 @@ li,a:hover{
 .loki{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 30%;
     margin: auto;
 }
 .loki-image{ 
@@ -320,7 +325,131 @@ li,a:hover{
     align-self: center;
     width: 20%;
 }
-@media only screen and (max-width: 1060px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .header nav{
+        display: none;
+    }
+    #logo-image{
+        width:50%;
+    }
+    #valhalla-image{
+        width: 50%;
+    }
+    #valhalla-text{
+        margin-top: 30px;
+        max-width: 90%;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+    .features-info-box h2{
+        padding: 5px 5px 5px 5px;
+    }
+
+    .features-info{
+        width: 90%;
+        
+    }
+    .loki{
+        width: 60%;
+    }
+    .loki-text-container{
+        width: 90%;
+    }
+    .loki-type-container{
+        flex-direction: column;
+
+    }
+    .loki-type-container-col{
+        margin: 0;
+        margin-bottom: 60px;
+    }
+  
+    .our-games-container{
+        flex-direction: column;
+        padding-top: 150px;
+        align-self: center;
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+    #etg-icon, #etg-image{
+        width: 75%;
+    }
+    #etg{
+        margin: 0;
+        padding-top: 40px;
+    }
+    #ltms{
+        margin: 0;
+        padding-top: 40px;
+    }
+    #ltms-icon, #ltms-image{
+        width: 75%;
+    }
+    #foot-icon{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    #address-text, #links-text, #links-text2{
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+    #links-text2{
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ }
+
+@media only screen and (min-width: 992px){ 
+    
+ }
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 1160px){
+    .header nav{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1160px){
+    #top{
+        width: 100%;
+    }
+    .main-video{
+       
+    }
+} */
+/* @media only screen and (max-width: 1060px){
     #valhalla-text{
         max-width: 80%;
     }
@@ -342,4 +471,4 @@ li,a:hover{
     .header, nav{
         margin-right: 30px;
     }
-}
+} */
