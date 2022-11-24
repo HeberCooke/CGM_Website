@@ -5,19 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta name="Description" content="CGM ----" />
-    <meta name="robots" content="Noimageindex" />
     <title>Casino Game Maker</title>
 </head>
 <body>
     <div class="root">
         <header class="header">
-           <a href="index.html" id="image-link-tag"><img id='logo-image' src="C:\Users\heber\Desktop\WEB CODE\CGM_Website\Assets\CGM_BG.png" alt="CGM Icon"></a>
+           <a href="index.html" id="image-link-tag"><img id='logo-image' src="Assets/CGM_BG.png" alt="CGM Icon"></a>
             <nav>
                 
                 <ul>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#valhalla">Products</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -25,7 +23,7 @@
 
         </header>
         <div id="top">
-           <video class="main-video" src="./img-dev/CGM_IntroVideo-compressed.mp4" autoplay muted="muted" controlslist="nodownload"></video>
+           <video class="main-video" src="Assets/videos/CGM_IntroVideo-compressed.mp4" autoplay muted="muted" controlslist="nodownload"></video>
         </div>
         <div id="line"></div>
         <div id="valhalla">
@@ -57,7 +55,7 @@
                 </div>
                 <div class="features-info-text">
                     <ul>
-                        <li>Robust GPUs avalable for 2D/3D HD/4K graphics (60 fps)</li>
+                        <li>Robust GPUs available for 2D/3D HD/4K graphics (60 fps)</li>
                         <li>Multiple game engines available:
                             <ul style="margin-left: 1.5em;">
                                 <li>Starling</li>
@@ -91,7 +89,7 @@
             <a href="#">Learn More</button></a>
         </div>
         <div id="line2"></div>
-        <div class="loki">
+        <div class="loki" id="loki-id">
             <img class="loki-image"src="./Assets/trine-logo.png" alt="Loki">
             <img class="loki-image"src="./Assets/loki-logo_text.png" alt="Loki text">
             
@@ -99,7 +97,7 @@
         <div class="loki-text-container">
             <h2 id="loki-text">Casino Game Maker's LOKI is a game development kit designed to create and launch Class ll and class lll games faster than ever before! Broken into three tiers, LOKI is versatile enough to handle all game development types</h2>
         </div>
-       <div class="loki-type-container">
+       <div class="loki-type-container" >
             <div class="loki-type-container-col">
                 <img src="./Assets/tier1-blue.png" alt="Tier 1">
                 <h1 id="tier1">Tier 1</h1>
@@ -120,7 +118,7 @@
         <a href="#">Learn More</button></a>
        </div>
         <div id="vid">
-            <video class="main-video" id="vid2" src="./img-dev/video.mp4" autoplay muted="muted" controlslist="nodownload" loop></video>
+            <video class="main-video" id="vid2" src="Assets/videos/video.mp4" autoplay muted="muted" controlslist="nodownload" loop></video>
             <h1 id="vid2-text">OUR GAMES</h1><br>
             <h2 id="vid2-text2">We do it all in the world of land-based casino games.</h2>
          </div>
@@ -135,7 +133,7 @@
             </div>
          </div>
          <div class="footer">
-            <a href="#" id="foot-icon"><img id="cgm-icon" src="./Assets/cgm_Hover.webp"></a>
+            <a href="#image-link-tag" id="foot-icon"><img id="cgm-icon" src="./Assets/cgm_Hover.webp"></a>
             <div id="address-text">
                 <p>Casino Game Maker</p><br>
                 <p>718 West 400 North</p><br>
@@ -143,15 +141,15 @@
                 <p>+1 (435) 767-1014</p><br>
             </div>
             <div id="links-text">
-                <a href=""><p>VALHALLA+</p></a><br>
-                <a href=""><p>LOKI</p></a><br>
+                <a href="#valhalla"><p>VALHALLA+</p></a><br>
+                <a href="#loki-id"><p>LOKI</p></a><br>
                 <a href=""><p>ETG</p></a><br>
                 <a href=""><p>LTMS</p></a><br>
             </div>
             <div id="links-text2">
                 <a href=""><p>ABOUT</p></a><br>
                 <a href=""><p>NEWS</p></a><br>
-                <a href=""><p>CONTACTS</p></a><br>
+                <a href=""><p>CONTACT</p></a><br>
                 <a href=""><p>CAREERS</p></a><br>
             </div>
          </div>
@@ -162,8 +160,6 @@
     </div> <!--END -->
 
     
-    <script>
-        document.getElementById('vid2').playbackRate = 0.7;
-    </script>
+    <script src="./slow-vid.js"></script>
 </body>
 </html>
