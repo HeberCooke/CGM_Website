@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
-.background-image-container{
+
+.background-image-container {
     background-image: url("Assets/about-img/Header_About_v2.webp");
     background-size: 100%;
 }
-#get-to-know-us{
+
+#get-to-know-us {
     display: flex;
     justify-content: center;
     height: 500px;
     align-items: center;
 }
-#get-to-know-us-h1{
+
+#get-to-know-us-h1 {
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 100px;
+    font-size: 6em;
     color: white;
 }
+
 .header {
     width: 100%;
     background-color: black;
@@ -67,26 +71,30 @@ a:hover {
     display: block;
     width: 300px;
 }
-.main-container{
+
+.main-container {
     background-color: black;
     color: white;
-    height:10000px
+    
 }
-.inovation{
+
+.inovation {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+
 
 }
-#inovation-title{
+
+#inovation-title {
     padding-top: 60px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-weight: 200;
-    align-items: center;   
+    align-items: center;
 }
-.inovation-text{
+
+.inovation-text {
     padding-top: 60px;
     display: flex;
     flex-direction: column;
@@ -95,34 +103,263 @@ a:hover {
     padding-bottom: 60px;
     width: 80%;
 }
-.inovation-text p{
+
+.inovation-text p {
     align-self: flex-start;
     font-size: 1.5em;
-    padding-left: 20%; 
-}
-#line {
-    display: block;
-    height: 60px;
-    background-color: #0A8CBF;
-}
-.image-container{
-width: 100%;
-align-items: center;
-    
-}
-.image-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-    align-self: center;
-    justify-content: center;
-    align-self: center;
-    
-}
-.image-name{
-    margin: 20px;
-}
-.image-name, p, h1{
-    margin-top:15px;
+    padding-left: 20%;
 }
 
+#line {
+    display: block;
+    height: 90px;
+    background-color: #0A8CBF;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.image-name,
+img {
+    justify-self: center;
+    width: 300px;
+
+}
+
+.join-team{
+    background-color: #0A8CBF;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+}
+
+.join-team-container :hover{
+    background-color: black;
+    color: white;
+    box-shadow:0px 0px 0px 3px white inset;
+    border-radius: 6px;
+}
+#h1-join{
+    padding: 20px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+#copywrite-text {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#foot-icon {
+    margin: 100px;
+
+    width: 30%;
+    align-self: center;
+}
+
+#address-text {
+    text-align: left;
+    align-self: center;
+    width: 30%;
+}
+
+#links-text2 {
+    line-height: 0.2;
+    text-align: left;
+    align-self: center;
+    margin-right: 200px;
+    width: 20%;
+}
+
+#links-text {
+    line-height: 0.2;
+    text-align: left;
+    align-self: center;
+    width: 20%;
+}
+
+#cgm-icon{
+    width: 40%;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .header nav {
+        display: none;
+    }
+    .background-image-container{
+        background-repeat: no-repeat;
+    }
+    #get-to-know-us{
+        height:160px
+    }
+    #get-to-know-us-h1{
+        font-size: 1.5em;
+    }
+    .inovation h1{
+        font-size: 1.5em;
+    }
+    .inovation-text{
+        font-size: 0.75em;
+        width: 100%;
+      
+    }
+    .inovation-text p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .image-container{
+        margin-bottom: 60px;
+    }
+    .image-row{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .image-name,
+    img {
+        justify-self: center;
+        width: 250px;
+        
+
+    }
+    .image-name{
+        margin: 30px;
+    }
+    .join-team{
+        margin-bottom: 60px;
+    }
+    #foot-icon {
+        display: none;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1119px){
+    .header nav {
+        display: none;
+    }
+    .background-image-container{
+        background-repeat: no-repeat;
+    }
+    #get-to-know-us{
+        height: 240px
+    }
+    #get-to-know-us-h1{
+        font-size: 3em;
+    }
+    .inovation h1{
+        font-size: 2.5em;
+    }
+    .inovation-text{
+        font-size: 1em;
+        width: 100%;
+      
+    }
+    .inovation-text p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .image-container{
+        margin-bottom: 60px;
+    }
+    .image-row{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .image-name,
+    img {
+        justify-self: center;
+        width: 300px;
+        
+
+    }
+    .image-name{
+        margin: 30px;
+    }
+    .join-team{
+        margin-bottom: 60px;
+    }
+    #foot-icon {
+        display: none;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 1120px) and (max-width: 1430px){
+    #get-to-know-us-h1{
+        font-size: 5em;
+    }
+
+    .image-row{
+        margin-bottom: 60px;
+    }
+}
