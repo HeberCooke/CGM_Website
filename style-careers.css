@@ -10,6 +10,7 @@
 .background-image-container {
     background-image: url("Assets/careers-img/Header_Careers.webp");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #get-to-know-us {
@@ -342,4 +343,251 @@ a:hover {
 }
 #cgm-icon{
     width: 40%;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .header nav {
+        display: none;
+    }
+    #image-link-tag{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .career-type-container{
+        grid-template-columns: 100%;
+    }
+    #get-to-know-us{
+        height: auto;
+    }
+    #get-to-know-us-h1 {
+        font-size: 4em;
+        padding-top: 115px;
+        padding-bottom: 0;
+        
+    }
+    .inovation-text{
+        margin-left: 15px;
+    }
+    .inovation-text p{
+        padding-left: 15px;
+        width: 100%;
+    }
+    .career-type-1 img{
+        width: 100%;
+    }
+    .career-type-container{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .career-type-1{
+        margin-bottom: 60px;
+    }
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .header nav {
+        display: none;
+    }
+    .career-type-container{
+        grid-template-columns: 100%;
+    }
+    #image-link-tag{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #get-to-know-us{
+        height: auto;
+    }
+    #get-to-know-us-h1 {
+        font-size: 4em;
+        padding-top: 180px;
+        padding-bottom: 0;
+        
+    }
+    .inovation-text{
+        display: block;
+        width: 90%;
+        margin-right: 15px;
+        margin: 0;
+    }
+
+    .inovation-text p{
+        padding-left: 15px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .career-type-1 img{
+        width: 80%;
+    }
+    .career-type-container{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .career-type-1{
+        margin-bottom: 60px;
+    }
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+    #software-text{
+        height: 250px;
+    }
+    #studio-text{
+        height: 250px;
+    }
+    #testing-text{
+        height: 250px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+    .header nav {
+        display: none;
+    }
+    .career-type-container{
+        grid-template-columns: 100%;
+        width: 80%;
+        text-align: center;
+    }
+    #image-link-tag{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #get-to-know-us{
+        height: auto;
+    }
+    #get-to-know-us-h1 {
+        font-size: 4em;
+        padding-top: 280px;
+        padding-bottom: 0;
+        
+    }
+    .inovation-text{
+        display: block;
+        width: 90%;
+        margin-right: 15px;
+        margin: 0;
+    }
+    .inovation-text1{
+        padding-right: 15px;
+    }
+    .inovation-text p{
+        padding-left: 15px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .career-type-1 img{
+        width: 75%;
+    }
+    .career-type-container{
+        width:auto
+    }
+    .career-type-1{
+        margin-bottom: 60px;
+    }
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+    #software-text{
+        height: 250px;
+    }
+    #studio-text{
+        height: 250px;
+    }
+    #testing-text{
+        height: 250px;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1260px){
+    .inovation-text{
+        display: block;
+        width: 90%;
+        margin-right: 15px;
+        margin: 0;
+    }
+    .career-type-1 img{
+        width: 75%;
+    }
+    #inovation-text1{
+        padding-left: 60px;
+    }
+    #software-text{
+        height:350px;
+    }
+    #studio-text{
+        height: 350px;
+    }
+    #testing-text{
+        height: 350px;
+    }
 }
