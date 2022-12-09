@@ -53,7 +53,7 @@ a:hover {
 
 #logo-image {
 
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
@@ -100,7 +100,10 @@ a:hover {
     margin: auto;
 
 }
-
+#valhalla-image{
+    width: 25%;
+    margin-bottom: 30px;
+}
 .features-info-box h2 {
     border: #0A8CBF;
     border-style: solid;
@@ -180,15 +183,19 @@ li {
     
 }
 
+
 .loki {
     display: flex;
     flex-direction: column;
     width: 30%;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .loki-image {
     text-align: center;
+    width: 50%;
 }
 
 
@@ -200,6 +207,7 @@ li {
     padding-bottom: 60px;
     width: 60%;
     margin: auto;
+    
 }
 
 .loki-text {
@@ -214,6 +222,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .loki-type-container-col {
@@ -374,9 +383,7 @@ li {
     width: 20%;
 }
 
-#cgm-icon{
-    width: 40%;
-}
+
 
 
 

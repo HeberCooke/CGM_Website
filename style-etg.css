@@ -217,12 +217,7 @@ a:hover {
     margin-bottom: 60px;
 }
 
-.image-name,
-img {
-    justify-self: center;
-    width: 300px;
 
-}
 
 .join-team{
     background-color: #0A8CBF;
@@ -267,7 +262,6 @@ img {
 
 #foot-icon {
     margin: 100px;
-
     width: 30%;
     align-self: center;
 }
@@ -293,9 +287,7 @@ img {
     width: 20%;
 }
 
-#cgm-icon{
-    width: 40%;
-}
+
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .header nav {
         display: none;
@@ -390,16 +382,7 @@ img {
         align-items: center;
 
     }
-    .image-name,
-    img {
-        justify-self: center;
-        width: 250px;
-        
 
-    }
-    .image-name{
-        margin: 30px;
-    }
     .join-team{
         margin-bottom: 60px;
     }
