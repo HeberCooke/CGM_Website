@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    width: 100%;
+    background-color: black;
+    opacity: 90%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%, 5%;
+    text-transform: capitalize;
+}
+
+.header,
+nav {
+
+    margin-right: 60px;
+}
+
+.header li,
+a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+li,
+a:hover {
+    color: #0A8CBF;
+}
+
+#logo-image {
+
+    width: 60%;
+    height: auto;
+}
+
+#image-link-tag {
+    margin-left: 60px;
+    display: block;
+    width: 300px;
+}
+
+
+.background-image-container {
+    background-image: url("Assets/contact-img/Header_Red_Rock.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#get-to-know-us {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+#get-to-know-us-h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 6em;
+    color: white;
+}
+.main-container {
+    background-color: black;
+    color: white;
+    display: block;
+    
+}
+.contact-info{
+    padding-top: 60px;
+    padding-bottom: 120px;
+    text-align: center;
+
+    background-color: black;
+    padding-right: 60px;
+}
+.news-text-about{
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-bottom: -3%;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.form-container{
+    display: flex;
+    background-color: #0A8CBF;
+    height: 600px;
+    justify-content: center;
+    
+}
+.name-container{
+    gap: 10%;
+    display: flex;
+    flex: row;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+#contactform{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.first-name{
+    color: white;
+}
+.first-name-input{
+    
+}

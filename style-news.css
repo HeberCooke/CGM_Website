@@ -55,7 +55,7 @@ a:hover {
 
 .background-image-container {
     background-image: url("Assets/etg-img/etg.png");
-    background-size: 160%;
+    background-size: 180%;
     background-repeat: no-repeat;
     
 }
@@ -79,7 +79,6 @@ a:hover {
     
 }
 .news-container-row{
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -198,3 +197,67 @@ a:hover {
     width: 20%;
 }
 
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header nav {
+        display: none;
+    }
+    #logo-image {
+        width: 50%;
+    }
+    .box-container {
+        flex-direction: column;
+    }
+    #get-to-know-us {
+        height: auto;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    #get-to-know-us-h1 {
+        font-size: 3rem;
+    }
+
+    .news-container-row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-container-col{
+        width: 90%;
+    }
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+    .background-image-container{
+        background-size: 200%;
+    }
+    .header nav {
+        display: none;
+    }
+}
