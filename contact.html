@@ -42,22 +42,70 @@
                     <h2 class="first-name">First Name</h2>
                     <input class="first-name-input" name="name" type="text" id="name" placeholder="First Name">
                 </div>
-                <div class="last-name">
-                    <h2>Last Name</h2>
-                    <input name="name" type="text" id="name" placeholder="Last Name">
+                <div class="last-name-box">
+                    <h2 class="last-name">Last Name</h2>
+                    <input class="last-name-input" name="name" type="text" id="name" placeholder="Last Name">
                 </div>
 
             </div>
+            <div class="email-container">
+                <h2 class="email">Email</h2>
+                <input class="email-input" name="email" type="email" id="email" placeholder="email">
+            </div>
+            <div class="message-container">
+                <h2 class="message">Message</h2>
+                <textarea class="message-input" name="comment" id="comment" rows="3"></textarea>
+            </div>
             
-            <input name="email" type="email" id="email" placeholder="email">
-            <textarea name="comment" id="comment" rows="3"></textarea>
-        
-            <input name="_formsubmit_id" type="text" style="display:none">
-        
-            <input value="Submit" type="submit">
+            <div class="submit-button">
+                <input  name="_formsubmit_id" type="text" style="display:none">
+                <input class="submit" value="Send Message" type="submit" onclick="submitForm()">
+            </div>
+            
         </form>
         
     </div>
+    <div class="footer">
+        <a href="#" id="foot-icon"><img id="cgm-icon" src="./Assets/cgm_Hover.webp"></a>
+        <div id="address-text">
+            <p>Casino Game Maker</p><br>
+            <p>718 West 400 North</p><br>
+            <p>Cedar City, Ut 84720</p><br>
+            <p>+1 (435) 767-1014</p><br>
+        </div>
+        <div id="links-text">
+            <a href="index.html#valhalla">
+                <p>VALHALLA+</p>
+            </a><br>
+            <a href="index.html#loki-id">
+                <p>LOKI</p>
+            </a><br>
+            <a href="etg.html">
+                <p>ETG</p>
+            </a><br>
+            <a href="ltms.html">
+                <p>LTMS</p>
+            </a><br>
+        </div>
+        <div id="links-text2">
+            <a href="about.html">
+                <p>ABOUT</p>
+            </a><br>
+            <a href="news.html">
+                <p>NEWS</p>
+            </a><br>
+            <a href="contact.html">
+                <p>CONTACT</p>
+            </a><br>
+            <a href="careers.html">
+                <p>CAREERS</p>
+            </a><br>
+        </div>
+    </div>
+    <div id="foot">
+        <p id="copywrite-text">&#169;2022 Casino Game Maker</p>
+    </div>
+    <script src="submit.js"></script>
 </body>
 
 </html>

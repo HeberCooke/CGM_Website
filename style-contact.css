@@ -90,32 +90,151 @@ a:hover {
     font-size: 1.2rem;
     margin-left: 5%;
     margin-bottom: -3%;
-    line-height: 2rem;
+    line-height: 1.2rem;
     letter-spacing: 1px;
 }
 .form-container{
     display: flex;
     background-color: #0A8CBF;
-    height: 600px;
-    justify-content: center;
+    padding: 0 15% 0 15%;
     
 }
 .name-container{
-    gap: 10%;
-    display: flex;
-    flex: row;
+    display:flex;
     padding-top: 60px;
     padding-bottom: 60px;
-    justify-content: center;
+
 }
 #contactform{
-    width: 80%;
+
+    line-height: 1.2rem;
+    width: 100%;
+}
+.first-name-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.first-name-input, .last-name-input{
+    font-size: 1.2rem;
+    width: 90%;
+    height: auto;
+    padding: .75rem;
+    border-radius: 6px;
+    border-style: none;
+    align-self: center;
+}
+.email-input{
+    font-size: 1.2rem;
+    width: 95%;
+    height: auto;
+    padding-left: 5%;
+    padding: .75rem;
+    border-radius: 6px;
+    border-style: none;
+    align-self: center;
+
+}
+.last-name-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column; 
+}
+.email-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.first-name, .last-name {
+    padding-bottom: 1%;
+    color: white;
+    padding-left: 3.2%;
+}
+.email{
+    color: white;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.message{
+    color: white;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+}
+.message-input{
+    width: 95%;
+    height: 200px;
+    align-self: center;
+    border-radius: 6px;
+    border-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.submit-button{
+    margin-bottom: 60px;
+    padding-left: 1.2%;
+}
+.submit{
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: 1%;
+    border-radius: 4px;
+}
+.submit:hover{
+    background-color: #0A8CBF;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+
+#foot {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    margin: auto;
     align-items: center;
 }
-.first-name{
-    color: white;
+
+#copywrite-text {
+    justify-content: center;
+    margin-bottom: 10px;
 }
-.first-name-input{
-    
+
+#foot-icon {
+    margin: 100px;
+
+    width: 30%;
+    align-self: center;
+}
+
+#address-text {
+    text-align: left;
+    align-self: center;
+    width: 30%;
+}
+
+#links-text2 {
+    line-height: 0.2;
+    text-align: left;
+    align-self: center;
+    margin-right: 200px;
+    width: 20%;
+}
+
+#links-text {
+    line-height: 0.2;
+    text-align: left;
+    align-self: center;
+    width: 20%;
 }
