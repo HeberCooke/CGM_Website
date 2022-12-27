@@ -23,32 +23,32 @@
 #get-to-know-us-h1 {
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 6em;
+    font-size: 4em;
     color: white;
 }
 
 .header {
     width: 100%;
-    background-color: black;
-    opacity: 90%;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-between;
     margin: 5%, 5%;
     text-transform: capitalize;
+    align-items: center;
 }
 
 .header,
 nav {
 
-    margin-right: 60px;
+    margin-right: 3.75rem;
 }
 
 .header li,
 a {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     list-style: none;
@@ -58,7 +58,7 @@ a {
 
 li,
 a:hover {
-    color: #0A8CBF;
+    color: #3BA7EC;
 }
 
 #logo-image {
@@ -70,7 +70,8 @@ a:hover {
 #image-link-tag {
     margin-left: 60px;
     display: block;
-    width: 300px;
+    width: 400px;
+    padding: 1rem 1rem 0 1rem ;
 }
 
 .main-container {
@@ -128,7 +129,7 @@ a:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 60px;
-    background: linear-gradient(90deg, black 20%, #0A8CBF)
+    background: linear-gradient(90deg, black 20%, #3BA7EC)
 }
 .terminal-container3{
     display: flex;
@@ -138,7 +139,7 @@ a:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 60px;
-    background: linear-gradient(90deg, #0A8CBF 20%, black )
+    background: linear-gradient(90deg, #3BA7EC 20%, black )
 }
 .terminal-image img{
     align-items: center;
@@ -164,6 +165,39 @@ a:hover {
     line-height: 2rem;
     font-size: 1.5rem;
 }
+.terminal-about ul li::before {
+    content: "\2022";
+    color: #3BA7EC;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -1em;
+}
+.terminal-about2 ul li::before {
+    content: "\2022";
+    color: #3BA7EC;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -1em;
+}
+.terminal-about3 ul li::before {
+    content: "\2022";
+    color: black;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -1em;
+}
 .terminal-about2 li{
     list-style: none;
     color: white;
@@ -188,7 +222,7 @@ a:hover {
     text-align: center;
     margin: 30px;
     font-size: 4rem;
-    color: #0A8CBF;
+    color: #3BA7EC;
 }
 .statium-h1{
     text-align: center;
@@ -196,7 +230,7 @@ a:hover {
 #line {
     display: block;
     height: 90px;
-    background-color: #0A8CBF;
+    background-color: #3BA7EC;
 }
 
 .image-container {
@@ -220,7 +254,7 @@ a:hover {
 
 
 .join-team{
-    background-color: #0A8CBF;
+    background-color: #3BA7EC;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -235,6 +269,7 @@ a:hover {
 }
 #h1-join{
     padding: 20px;
+    font-size: 2rem;
 }
 
 
@@ -243,8 +278,6 @@ a:hover {
     justify-content: space-between;
     text-align: center;
     margin: auto;
-
-
 }
 
 #foot {
@@ -257,12 +290,12 @@ a:hover {
 
 #copywrite-text {
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 #foot-icon {
     margin: 100px;
-    width: 30%;
+    width: 25%;
     align-self: center;
 }
 
@@ -270,6 +303,8 @@ a:hover {
     text-align: left;
     align-self: center;
     width: 30%;
+    font-size: 1.25rem;
+    line-height:100%;
 }
 
 #links-text2 {
@@ -359,7 +394,7 @@ a:hover {
         height:160px
     }
     #get-to-know-us-h1{
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
     .inovation h1{
         font-size: 1.5em;

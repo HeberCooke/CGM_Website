@@ -28,13 +28,13 @@
 
 .header {
     width: 100%;
-    background-color: black;
-    opacity: 90%;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-between;
     margin: 5%, 5%;
     text-transform: capitalize;
+    align-items: center;
 }
 
 .header,
@@ -47,7 +47,7 @@ nav {
 a {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     list-style: none;
@@ -57,7 +57,7 @@ a {
 
 li,
 a:hover {
-    color: #0A8CBF;
+    color: #3BA7EC;
 }
 
 #logo-image {
@@ -69,7 +69,8 @@ a:hover {
 #image-link-tag {
     margin-left: 60px;
     display: block;
-    width: 300px;
+    width: 400px;
+    padding: 1rem 1rem 0 1rem ;
 }
 
 .main-container {
@@ -110,10 +111,10 @@ a:hover {
     padding-left: 20%;
 }
 
-#line {
+.line {
     display: block;
     height: 90px;
-    background-color: #0A8CBF;
+    background-color: #3BA7EC;
 }
 
 .image-container {
@@ -142,7 +143,7 @@ img {
 }
 
 .join-team{
-    background-color: #0A8CBF;
+    background-color: #3BA7EC;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -157,6 +158,7 @@ img {
 }
 #h1-join{
     padding: 20px;
+    font-size: 2rem;
 }
 
 
@@ -184,8 +186,7 @@ img {
 
 #foot-icon {
     margin: 100px;
-
-    width: 30%;
+    width: 25%;
     align-self: center;
 }
 
@@ -193,6 +194,8 @@ img {
     text-align: left;
     align-self: center;
     width: 30%;
+    font-size: 1.25rem;
+    line-height:100%;
 }
 
 #links-text2 {
@@ -216,6 +219,9 @@ img {
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .header nav {
         display: none;
+    }
+    .line{
+        margin-top: 1rem;
     }
     .background-image-container{
         background-repeat: no-repeat;
@@ -249,7 +255,7 @@ img {
     .image-name,
     img {
         justify-self: center;
-        width: 250px;
+       
         
 
     }

@@ -8,8 +8,7 @@
 }
 .header {
     width: 100%;
-    background-color: black;
-    opacity: 90%;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -19,13 +18,13 @@
 .header,
 nav {
 
-    margin-right: 60px;
+    margin-right: 3.75rem;
 }
 .header li,
 a {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     list-style: none;
@@ -34,7 +33,7 @@ a {
 }
 li,
 a:hover {
-    color: #0A8CBF;
+    color: #3BA7EC;
 }
 #logo-image {
 
@@ -44,7 +43,8 @@ a:hover {
 #image-link-tag {
     margin-left: 60px;
     display: block;
-    width: 300px;
+    width: 400px;
+    padding: 1rem 1rem 0 1rem ;
 }
 .main-container {
     background-color: black;
@@ -90,7 +90,7 @@ a:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 60px;
-    background: linear-gradient(90deg, black 20%, #0A8CBF )
+    background: linear-gradient(90deg, black 20%, #3BA7EC )
 }
 .terminal-container3{
     display: flex;
@@ -100,7 +100,7 @@ a:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 60px;
-    background: linear-gradient(90deg, black 20%, #0A8CBF )
+    background: linear-gradient(90deg, black 20%, #3BA7EC )
 }
 .terminal-image img{
     align-items: center;
@@ -140,7 +140,7 @@ a:hover {
     width: 100%;
 }
 .join-team{
-    background-color: #0A8CBF;
+    background-color: #3BA7EC;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -154,14 +154,13 @@ a:hover {
 }
 #h1-join{
     padding: 20px;
+    font-size: 2rem;
 }
 .footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: auto;
-
-
 }
 
 #foot {
@@ -174,13 +173,13 @@ a:hover {
 
 #copywrite-text {
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 #foot-icon {
     margin: 100px;
 
-    width: 30%;
+    width: 25%;
     align-self: center;
 }
 
@@ -188,6 +187,8 @@ a:hover {
     text-align: left;
     align-self: center;
     width: 30%;
+    font-size: 1.25rem;
+    line-height:100%;
 }
 
 #links-text2 {
@@ -204,5 +205,361 @@ a:hover {
     align-self: center;
     width: 20%;
 }
+.terminal-about3 ul li::before {
+    content: "\2022";
+    color: #3BA7EC;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -1em;
+}
+.terminal-about2 ul li::before {
+    content: "\2022";
+    color: #3BA7EC;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -1em;
+}
+.terminal-about1 ul li::before {
+    content: "\2022";
+    color: #3BA7EC;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    align-self: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -1em;
+}
+.join-team{
+    margin-bottom: 3rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .header nav {
+        display: none;
+    }
 
+    .ltms-text-container{
+        font-size: 0.75em;
+        width: 95%;
+        padding: 3rem 0 0 0;
+    }
+    .ltms-text{
+        padding-left: 1rem;
+    }
+    .box-container {
+        flex-direction: column;
+    }
 
+    .features-info-box h2 {
+        padding: 5px 5px 5px 5px;
+        font-size: 1.5rem;
+    }
+
+    .features-info {
+        width: 90%;
+        text-align: center;
+
+    }
+    .terminal-about1 li{
+        font-size: 1.3rem; 
+    }
+
+    .terminal-about3 li{
+        font-size: 1.3rem;
+       }
+    .terminal-about2 li{
+        font-size: 1.3rem; 
+    }
+   .terminal-container3{
+    flex-direction: column;
+    padding: 1rem;
+   }
+   .terminal-container2{
+    flex-direction: column;
+    padding: 1rem;
+   }
+   .terminal-container1{
+    flex-direction: column;
+    padding: 1rem;
+   }
+   .terminal-image{
+    padding-top: 3rem;
+    width: 80%;
+   }
+
+   .h1-features{
+    padding: 1rem;
+    font-size: 2rem;
+}
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header nav {
+        display: none;
+    }
+
+    #logo-image {
+        width: 50%;
+    }
+
+    #valhalla-image {
+        width: 50%;
+    }
+
+    #valhalla-text {
+        margin-top: 30px;
+        max-width: 90%;
+    }
+
+    .box-container {
+        flex-direction: column;
+    }
+
+    .features-info-box h2 {
+        padding: 5px 5px 5px 5px;
+        font-size: 2rem;
+    }
+
+    .features-info {
+        width: 90%;
+
+    }
+
+    .learn-more-button a {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .loki {
+        width: 60%;
+    }
+
+    .loki-text-container {
+        width: 90%;
+    }
+
+    .loki-type-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .loki-type-container-col {
+        margin: 0;
+        margin-bottom: 60px;
+    }
+
+    .our-games-container {
+        flex-direction: column;
+        padding-top: 150px;
+        align-self: center;
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+
+    #etg-icon,
+    #etg-image {
+        width: 75%;
+    }
+
+    #etg {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    #ltms {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    #ltms-icon,
+    #ltms-image {
+        width: 75%;
+    }
+
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+    .header nav {
+        display: none;
+    }
+
+    #valhalla-image {
+        width: 50%;
+    }
+
+    #valhalla-text {
+        margin-top: 30px;
+        max-width: 90%;
+    }
+
+    .box-container {
+        flex-direction: column;
+    }
+
+    .features-info-box h2 {
+        padding: 5px 5px 5px 5px;
+        font-size: 2rem;
+    }
+
+    .features-info {
+        width: 90%;
+
+    }
+
+    .learn-more-button a {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .loki {
+        width: 60%;
+    }
+
+    .loki-text-container {
+        width: 90%;
+    }
+
+    .loki-type-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .loki-type-container-col {
+        margin: 0;
+        margin-bottom: 60px;
+    }
+
+    .our-games-container {
+        flex-direction: column;
+        padding-top: 150px;
+        align-self: center;
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+
+    #etg-icon,
+    #etg-image {
+        width: 75%;
+    }
+
+    #etg {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    #ltms {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    #ltms-icon,
+    #ltms-image {
+        width: 75%;
+    }
+
+    #foot-icon {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #address-text,
+    #links-text,
+    #links-text2 {
+        width: 90%;
+        text-align: center;
+        line-height: .7;
+        margin-top: 20px;
+    }
+
+    #links-text2 {
+        margin: 0;
+    }
+
+    #copywrite-text {
+        margin-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1350px) {
+    .header, nav{
+        margin-right: 0;
+    }
+    .header li,
+    a {
+    font-size: 1rem;
+    }
+   
+    .learn-more-button a {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .features-info-box h2 {
+        
+        font-size: 2rem;
+    }
+}

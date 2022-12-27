@@ -26,19 +26,20 @@ h1 {
     justify-content: space-between;
     margin: 5%, 5%;
     text-transform: capitalize;
+    align-items: center;
 }
 
 .header,
 nav {
 
-    margin-right: 60px;
+    margin-right: 3.75em;
 }
 
 .header li,
 a {
     color: white;
     font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     list-style: none;
@@ -48,7 +49,7 @@ a {
 
 li,
 a:hover {
-    color: #0A8CBF;
+    color: #3BA7EC;
 }
 
 #logo-image {
@@ -60,7 +61,8 @@ a:hover {
 #image-link-tag {
     margin-left: 60px;
     display: block;
-    width: 300px;
+    width: 400px;
+    padding: 1rem 1rem 0 1rem ;
 }
 
 #top {
@@ -69,21 +71,22 @@ a:hover {
 
 .main-video {
     display: block;
-    width: 100%;
+    width: 75%;
+    margin: auto;
 }
 
 #line {
     display: block;
-    height: 60px;
-    background-color: #0A8CBF;
+    height: 7.5rem;
+    background-color: #3BA7EC;
 }
 
 #line2 {
     margin-top: 60px;
     margin-bottom: 60px;
     display: block;
-    height: 60px;
-    background-color: #0A8CBF;
+    height: 7.5rem;
+    background-color: #3BA7EC;
 }
 
 #valhalla {
@@ -107,11 +110,11 @@ a:hover {
 .features-info-box h2 {
     border: #0A8CBF;
     border-style: solid;
-    border-width: 3px;
+    border-width: .2rem;
     border-radius: 30px;
     padding: 35px 35px 35px 35px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.5em;
     font-size: 2.5rem;
 
 }
@@ -141,7 +144,7 @@ li {
 
 .features-info-text ul li::before {
     content: "\2022";
-    color: #0A8CBF;
+    color: #3BA7EC;
     font-weight: 900;
     display: inline-block;
     width: 1em;
@@ -168,13 +171,13 @@ li {
 .learn-more-button a {
     align-self: center;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.5rem;
     color: white;
-    border: #0A8CBF;
+    border: #3BA7EC;
     border-style: solid;
     border-radius: 6px;
     width: 200px;
-    background: #0A8CBF;
+    background: #3BA7EC;
     margin: auto;
     margin-top: 20px;
     
@@ -255,7 +258,7 @@ li {
 
 .tier-text {
     margin: 20px;
-    font-size: 2em;
+    font-size: 2rem;
     color: white;
     text-align: center;
 }
@@ -265,6 +268,7 @@ li {
     padding-bottom: 100px;
     height: 800px;
     object-fit: cover;
+    width: 100%;
 }
 
 #vid2-text {
@@ -320,12 +324,12 @@ li {
 }
 
 #etg-text {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #3BA7EC;
 }
 
 #ltms-text {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #3BA7EC;
 }
 
@@ -350,13 +354,12 @@ li {
 
 #copywrite-text {
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 #foot-icon {
     margin: 100px;
-
-    width: 30%;
+    width: 25%;
     align-self: center;
 }
 
@@ -364,6 +367,9 @@ li {
     text-align: left;
     align-self: center;
     width: 30%;
+    font-size: 1.25rem;
+    line-height:100%;
+    
 }
 
 #links-text2 {
@@ -383,20 +389,9 @@ li {
 
 
 
-
-
-
-
-
-
-
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .header nav {
         display: none;
-    }
-
-    #logo-image {
-        width: 50%;
     }
 
     #valhalla-image {
@@ -414,6 +409,7 @@ li {
 
     .features-info-box h2 {
         padding: 5px 5px 5px 5px;
+        font-size: 1.5rem;
     }
 
     .features-info {
@@ -445,6 +441,7 @@ li {
         align-self: center;
         height: fit-content;
         padding-bottom: 60px;
+        margin-bottom: 60px;
     }
 
     #etg-icon,
@@ -518,6 +515,7 @@ li {
 
     .features-info-box h2 {
         padding: 5px 5px 5px 5px;
+        font-size: 2rem;
     }
 
     .features-info {
@@ -604,13 +602,9 @@ li {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
     .header nav {
         display: none;
-    }
-
-    #logo-image {
-        width: 50%;
     }
 
     #valhalla-image {
@@ -628,6 +622,7 @@ li {
 
     .features-info-box h2 {
         padding: 5px 5px 5px 5px;
+        font-size: 2rem;
     }
 
     .features-info {
@@ -714,7 +709,7 @@ li {
     }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1150px) {
+@media only screen and (min-width: 1080px) and (max-width: 1350px) {
     .header, nav{
         margin-right: 0;
     }
@@ -722,12 +717,14 @@ li {
     a {
     font-size: 1rem;
     }
-    #logo-image{
-        width: 90%;
-    }
+   
     .learn-more-button a {
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+    .features-info-box h2 {
+        
+        font-size: 2rem;
     }
 }
 
