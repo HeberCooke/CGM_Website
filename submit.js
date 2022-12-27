@@ -1,9 +1,10 @@
 
 function submitForm(){
-    console.log("Submitted...")
+    const doc = document.getElementById("contactform");
+  
     setTimeout(()=>{
-        document.getElementById("contactform").reset();
-        alert("Thank You")
+        doc.reset();
+        
     }, 500)
     
     
