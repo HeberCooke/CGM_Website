@@ -25,9 +25,13 @@
 
         </header>
         <div id="top">
-            <video class="main-video" src="Assets/videos/CGM_IntroVideo-compressed.mp4" autoplay muted="muted"
-                controlslist="nodownload"></video>
+            <!--<video class="main-video" src="Assets/videos/CGM_IntroVideo-compressed.mp4" autoplay muted="muted"
+                controlslist="nodownload"></video> -->
+                <video class="main-video" preload="false" autoplay="true" muted="true" loop="false" playsinline="true" poster="Assets/CGM_BG.png" tabindex="0">
+                    <source src="Assets/videos/CGM_IntroVideo-compressed.mp4" type="video/mp4">
+                </video>
         </div>
+
         <div id="line"></div>
         <div id="valhalla">
             <img id="valhalla-image" src="./Assets/valhalla_withtext.png" alt="Valhalla Platform">
@@ -125,8 +129,9 @@
             <a href="#">Learn More</button></a>
         </div>
         <div id="vid">
-            <video class="main-video" id="vid2" src="Assets/videos/video.mp4" autoplay muted="muted"
-                controlslist="nodownload" loop></video>
+            <video class="main-video" id="vid2" autoplay muted="muted"controlslist="nodownload" loop poster="Assets/our-games2.png">
+                <source src="Assets/videos/video.mp4" type="video/mp4">
+            </video>
             <h1 id="vid2-text">OUR GAMES</h1><br>
             <h2 id="vid2-text2">We do it all in the world of land-based casino games.</h2>
         </div>

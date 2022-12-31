@@ -36,7 +36,6 @@ a:hover {
     color: #3BA7EC;
 }
 #logo-image {
-
     width: 60%;
     height: auto;
 }
@@ -56,6 +55,7 @@ a:hover {
     display: block;
     width: 100%;
     margin-bottom: -15px;
+    object-fit: cover;
 }
 
 .ltms-text-container{
