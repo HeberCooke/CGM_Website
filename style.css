@@ -71,11 +71,15 @@ a:hover {
 
 .main-video {
     display: block;
+      
     width: 75%;
     margin: auto;
     object-fit: cover;
+    
 }
-
+.main-video-2{ 
+    width: 100%;
+}
 #line {
     display: block;
     height: 7.5rem;
@@ -264,30 +268,26 @@ li {
     text-align: center;
 }
 
-#vid2 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    height: 800px;
-    object-fit: cover;
-    width: 100%;
-}
+
 
 #vid2-text {
     font-size: 3em;
     text-align: center;
-    margin-top: -500px;
+    /*margin-top: -500px;*/
 }
 
 #vid2-text2 {
     text-align: center;
    
 }
-
+#vid{
+    padding-bottom: 60px;
+}
 .our-games-container {
-    padding-top: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: row;
-    height: 1000px;
     background-color: #3BA7EC;
     justify-content: center;
 
@@ -551,7 +551,7 @@ li {
 
     .our-games-container {
         flex-direction: column;
-        padding-top: 150px;
+        /*padding-top: 150px;*/
         align-self: center;
         height: fit-content;
         padding-bottom: 60px;
@@ -658,7 +658,7 @@ li {
 
     .our-games-container {
         flex-direction: column;
-        padding-top: 150px;
+        /*padding-top: 150px;*/
         align-self: center;
         height: fit-content;
         padding-bottom: 60px;
