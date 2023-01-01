@@ -74,9 +74,10 @@ a:hover {
       
     width: 75%;
     margin: auto;
-    object-fit: cover;
+    object-fit:cover;
     
 }
+
 .main-video-2{ 
     width: 100%;
 }
