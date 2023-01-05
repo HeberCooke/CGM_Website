@@ -14,6 +14,7 @@
     justify-content: space-between;
     margin: 5%, 5%;
     text-transform: capitalize;
+    align-items: center;
 }
 .header,
 nav {

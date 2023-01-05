@@ -6,7 +6,9 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
-
+.root{
+    width: 100%;
+}
 .background-image-container {
     background-image: url("Assets/etg-img/etg.png");
     background-size: 160%;
@@ -62,7 +64,6 @@ a:hover {
 }
 
 #logo-image {
-
     width: 60%;
     height: auto;
 }
