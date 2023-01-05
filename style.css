@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     background-color: #000000;
-    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 
 }
@@ -21,6 +20,7 @@ h1 {
 }
 
 .header {
+    width:100%;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -70,8 +70,7 @@ a:hover {
 }
 
 .main-video {
-    display: block;
-      
+    display: block;    
     width: 75%;
     margin: auto;
     object-fit:cover;
@@ -79,7 +78,9 @@ a:hover {
 }
 
 .main-video-2{ 
-    width: 100%;
+    width: 50%;
+    border-radius: 5rem;
+
 }
 #line {
     display: block;
@@ -283,6 +284,7 @@ li {
 }
 #vid{
     padding-bottom: 60px;
+    text-align: center;
 }
 .our-games-container {
     padding-top: 60px;

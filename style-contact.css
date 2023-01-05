@@ -74,7 +74,7 @@ a:hover {
     color: white;
 }
 .main-container {
-    background-color: black;
+    background-color: #000000;
     color: white;
     display: block;
     
@@ -84,7 +84,7 @@ a:hover {
     padding-bottom: 120px;
     text-align: center;
 
-    background-color: black;
+    background-color: #000000;
     padding-right: 60px;
 }
 .news-text-about{
@@ -182,7 +182,7 @@ a:hover {
 .submit{
     font-size: 1.2rem;
     color: white;
-    background-color: black;
+    background-color: #000000;
     padding: 1%;
     border-radius: 4px;
 }
@@ -195,7 +195,7 @@ a:hover {
     justify-content: space-between;
     text-align: center;
     margin: auto;
-    background-color: black;
+    background-color: #000000;
 }
 
 #foot {
@@ -204,7 +204,7 @@ a:hover {
     justify-content: center;
     margin: auto;
     align-items: center;
-    background-color: black;
+    background-color: #000000;
     
 }
 

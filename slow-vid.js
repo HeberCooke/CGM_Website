@@ -1,1 +1,1 @@
-document.getElementById('vid2').playbackRate = .78;
+document.getElementById('vid2').playbackRate = .70;

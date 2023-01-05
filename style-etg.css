@@ -75,7 +75,7 @@ a:hover {
 }
 
 .main-container {
-    background-color: black;
+    background-color: #000000;
     color: white;
     display: block;
     
@@ -129,7 +129,7 @@ a:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 60px;
-    background: linear-gradient(90deg, black 20%, #3BA7EC)
+    background: linear-gradient(90deg, #000000 20%, #3BA7EC)
 }
 .terminal-container3{
     display: flex;
@@ -139,7 +139,7 @@ a:hover {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 60px;
-    background: linear-gradient(90deg, #3BA7EC 20%, black )
+    background: linear-gradient(90deg, #3BA7EC 20%, #000000 )
 }
 .terminal-image img{
     align-items: center;
@@ -189,7 +189,7 @@ a:hover {
 }
 .terminal-about3 ul li::before {
     content: "\2022";
-    color: black;
+    color: #000000;
     font-weight: 900;
     display: inline-block;
     width: 1em;
@@ -262,7 +262,7 @@ a:hover {
 }
 
 .join-team-container :hover{
-    background-color: black;
+    background-color: #000000;
     color: white;
     box-shadow:0px 0px 0px 3px white inset;
     border-radius: 6px;

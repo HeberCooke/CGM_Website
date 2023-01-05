@@ -74,8 +74,9 @@ a:hover {
 }
 
 .main-container {
-    background-color: black;
+    background-color: #000000;
     color: white;
+    width: 100%;
     
 }
 
@@ -135,7 +136,7 @@ a:hover {
     margin-bottom: 60px;
 }
 
-.image-name,
+.image-name
 img {
     justify-self: center;
     width: 300px;
@@ -151,7 +152,7 @@ img {
 }
 
 .join-team-container :hover{
-    background-color: black;
+    background-color: #000000;
     color: white;
     box-shadow:0px 0px 0px 3px white inset;
     border-radius: 6px;
@@ -167,8 +168,6 @@ img {
     justify-content: space-between;
     text-align: center;
     margin: auto;
-
-
 }
 
 #foot {
@@ -181,7 +180,7 @@ img {
 
 #copywrite-text {
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 #foot-icon {
@@ -213,9 +212,7 @@ img {
     width: 20%;
 }
 
-#cgm-icon{
-    width: 40%;
-}
+
 @media only screen and (min-width: 320px) and (max-width: 767px){
     .header nav {
         display: none;
